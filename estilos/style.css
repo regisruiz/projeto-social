@@ -29,10 +29,10 @@ section#telefone{
 }
 iframe#tela{
     position: relative;
-    top: 80px;
-    left: 22px;
-    width: 268px;
-    height: 471px;
+    top: 78px;
+    left: 21px;
+    width: 269px;
+    height: 474px;
 }
 section#redes-sociais{
     text-align: right; /*alinha os botões à direita*/
@@ -42,8 +42,8 @@ section#redes-sociais > a > img{
     margin: 7px;
     border-radius: 50%;/*deixa os botões arredondados*/
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.404);
-    box-sizing: border-box; /*pesquisar o que é?*/
-    margin: 20px 20px 0px 0px;
+    box-sizing: border-box; /*indica que o tamanho agora levará em conta até a borda, não aumentará*/
+    margin: 20px 10px 0px 0px;
 }
 section#redes-sociais > a > img:hover{
     border: 2.5px solid rgba(255, 255, 255, 0.664);
